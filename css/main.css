@@ -1,0 +1,58 @@
+body{
+    width: 100%;
+    height: 100vh;
+    transition: 300ms;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+button{
+    margin: 10px 0;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+    color: whitesmoke;
+    transition: 300ms;
+}
+button.green{
+    background-color: green;
+    margin-left: 10px;
+}
+button.green:hover{
+    background-color: darkgreen;
+}
+button.black{
+    background-color: #2b2b2b;
+}
+button.black:hover{
+    background-color: #1b1b1b;
+}
+button.crimson{
+    background-color: crimson;
+}
+button.crimson:hover{
+    background-color: darkred;
+}
+button.orange{
+    background-color: orangered;
+}
+button.orange:hover{
+    background-color: darkorange;
+}
+.green{
+    background-color: green;
+    transition: 300ms;
+}
+.black{
+    background-color: #2b2b2b;
+    transition: 300ms;
+}
+.crimson{
+    background-color: crimson;
+    transition: 300ms;
+}
+.orange{
+    background-color: orangered;
+    transition: 300ms;
+}
